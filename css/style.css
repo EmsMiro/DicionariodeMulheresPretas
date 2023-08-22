@@ -1,0 +1,101 @@
+@import url('./normalize.css');
+
+:root {
+    --fonte:'Open Sans', sans-serif;
+    --black: #000;
+    --brown: #777;
+}
+
+body{
+    font-family: var(--fonte);  
+}
+
+header {
+    border-bottom: 1px solid var(--black);
+    height: 100px;
+    margin-bottom: 40px;  
+    text-align: center;  
+}
+
+.header-paragraph {
+    margin-bottom: 0px;
+    text-transform: uppercase;
+}
+
+.section-cards {
+    display: block;
+    margin: 0 auto;
+    max-width: 1024px;
+    width: 100%;
+    
+}
+
+.cards {
+    border: 1px solid var(--black);
+    display: inline-block;   
+    margin: 10px;
+    max-height: 100%;
+    vertical-align: top;
+}
+
+.img-section {
+    display: block;
+    height:300px;
+    width: 300px;
+}
+
+.details-cards {
+    display: inline-block;
+    height: auto;
+    width: 300px;
+}
+
+.summary-cards {
+    font-size: 18px;
+    padding: 10px;
+}
+
+.paragraph-cards {
+    padding: 0 10px;
+}
+
+.blockquote-cards {
+    color: var(--brown);
+    font-style:italic;
+}
+
+@media screen and (max-width: 768px) {
+header {
+    height: 200px;
+    margin-bottom: 20px;
+}
+.header-paragraph {
+font-size: 36px;
+}
+.cards {
+    display: block;
+    margin: 20px 10px;
+}
+
+.img-section {
+    height:100%;
+    width: 100%;
+}
+
+.details-cards {
+    width: 100%;
+}
+
+.summary-cards {
+    font-size: 16px;
+}
+
+.paragraph-cards {
+    font-size:14px;
+    }
+}
+
+
+
+
+
